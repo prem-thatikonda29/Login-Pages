@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7f50, #e66036);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: -2%;
+    /* bottom:50px; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; /* Set the width of your logo */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.funky-text {
+    color: #e66036;
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #e66036;
+    border-radius: 8px;
+    background-color: #fff; /* Snow White */
+    color: #333; /* Dark Gray Text */
+}
+
+button {
+    background-color: #ff7f50; /* Orange */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 1.1rem;
+    width: 200px;
+    margin-top: 10px; /* Adjusted margin for spacing */
+}
+
+button:hover {
+    background-color: #e66036; /* Darker Orange on Hover */
+}
+
+.link {
+    color: #1e90ff;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.funky-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #e66036;
+}
